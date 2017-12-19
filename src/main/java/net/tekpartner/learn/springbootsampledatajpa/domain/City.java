@@ -37,6 +37,10 @@ public class City implements Serializable {
         return this.name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getState() {
         return this.state;
     }

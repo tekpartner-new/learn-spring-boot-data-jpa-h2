@@ -27,6 +27,6 @@ public class CityRepositoryIntegrationTests {
     public void findsFirstPageOfCities() {
 
         Page<City> cities = this.repository.findAll(PageRequest.of(0, 10));
-        assertThat(cities.getTotalElements()).isGreaterThan(20L);
+        assertThat(cities.getTotalElements()).isGreaterThan(2L);
     }
 }
