@@ -19,9 +19,6 @@ import static org.mockito.BDDMockito.given;
 @SpringBootTest
 public class CityServiceImplTest {
 
-    private static City sacramento = new City("Sacramento", "USA");
-    private static City sacramentoWithEmptyName = new City("Sacramento", "USA");
-
     @Autowired
     private CityService cityService;
 
@@ -32,8 +29,6 @@ public class CityServiceImplTest {
     public void setUp() {
         // given
         City sanJose = new City("San Jose", "USA");
-
-        sacramentoWithEmptyName.setName("");
 
         given(cityRepository.findByNameAndCountryAllIgnoringCase(sanJose.getName(), sanJose.getCountry()))
                 .willReturn(sanJose);
