@@ -9,8 +9,6 @@
 ### Testing the Endpoint
 
     curl -X GET localhost:8080
-    
-## However, when I run the tests the test fails
 
 ### Running the tests
 
