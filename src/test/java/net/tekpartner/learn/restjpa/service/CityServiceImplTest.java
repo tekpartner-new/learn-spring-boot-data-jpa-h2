@@ -16,7 +16,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Integration tests for {@link CityService}.
  *
- * @author Chandrashekar R. Gaajula
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
