@@ -1,6 +1,6 @@
-package net.tekpartner.learn.learnrestjpa.service;
+package net.tekpartner.learn.restjpa.service;
 
-import net.tekpartner.learn.learnrestjpa.persistence.model.City;
+import net.tekpartner.learn.restjpa.persistence.model.City;
 
 import javax.validation.Valid;
 import java.util.List;

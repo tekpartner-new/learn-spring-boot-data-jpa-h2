@@ -1,7 +1,7 @@
-package net.tekpartner.learn.learnrestjpa.web;
+package net.tekpartner.learn.restjpa.web;
 
-import net.tekpartner.learn.learnrestjpa.persistence.model.City;
-import net.tekpartner.learn.learnrestjpa.service.CityService;
+import net.tekpartner.learn.restjpa.persistence.model.City;
+import net.tekpartner.learn.restjpa.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

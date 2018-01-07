@@ -1,4 +1,4 @@
-package net.tekpartner.learn.learnrestjpa;
+package net.tekpartner.learn.restjpa;
 
 import org.junit.Before;
 import org.junit.Test;

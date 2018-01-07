@@ -1,6 +1,6 @@
-package net.tekpartner.learn.learnrestjpa.persistence.jpa;
+package net.tekpartner.learn.restjpa.persistence.jpa;
 
-import net.tekpartner.learn.learnrestjpa.persistence.model.City;
+import net.tekpartner.learn.restjpa.persistence.model.City;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

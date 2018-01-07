@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0087220b-e6b3-4b3c-b72f-0645bfd49f75" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sample-data-jpa.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/springbootsampledatajpa/SampleDataJpaApplication.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/LearnRestJPAApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/springbootsampledatajpa/domain/City.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/model/City.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/springbootsampledatajpa/service/CityRepository.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/jpa/CityRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/springbootsampledatajpa/service/CitySearchCriteria.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/springbootsampledatajpa/service/CityService.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/springbootsampledatajpa/service/CityServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/springbootsampledatajpa/web/SampleController.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/web/CityController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/springbootsampledatajpa/SampleDataJpaApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/LearnRestJPAApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/springbootsampledatajpa/service/CityRepositoryIntegrationTests.java" afterPath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityRepositoryIntegrationTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/springbootsampledatajpa/service/CityServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImplTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/LearnRestJPAApplication.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/LearnRestJPAApplication.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/jpa/CityRepository.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/persistence/jpa/CityRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/model/City.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/persistence/model/City.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityService.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/service/CityService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/service/CityServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/web/CityController.java" afterPath="$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/web/CityController.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/LearnRestJPAApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/restjpa/LearnRestJPAApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityRepositoryIntegrationTests.java" afterPath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/restjpa/service/CityRepositoryIntegrationTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/tekpartner/learn/restjpa/service/CityServiceImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -63,114 +54,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CityRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/jpa/CityRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LearnRestJPAApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/LearnRestJPAApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/web/CityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityRepositoryIntegrationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityRepositoryIntegrationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/model/City.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -826,7 +710,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-spring-boot-data-jpa-h2" type="b2602c69:ProjectViewProjectNode" />
@@ -834,7 +718,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -843,7 +727,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
               <item name="jpa" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -853,7 +737,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -863,7 +747,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -872,7 +756,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -901,7 +785,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-spring-boot-data-jpa-h2" type="b2602c69:ProjectViewProjectNode" />
@@ -909,7 +793,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnrestjpa" type="462c0819:PsiDirectoryNode" />
+              <item name="restjpa" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -1027,11 +911,11 @@
     <configuration name="SampleDataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.tekpartner.learn.learnrestjpa.*" />
+          <option name="PATTERN" value="net.tekpartner.learn.restjpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="net.tekpartner.learn.learnrestjpa.LearnRestJPAApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.tekpartner.learn.restjpa.LearnRestJPAApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="spring-boot-sample-data-jpa_main" />
       <envs />
@@ -1090,7 +974,7 @@
       <updated>1513702294423</updated>
       <workItem from="1513702295756" duration="46000" />
       <workItem from="1513702394607" duration="10247000" />
-      <workItem from="1515364845887" duration="2746000" />
+      <workItem from="1515364845887" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="Updates">
       <created>1513714252814</created>
@@ -1113,11 +997,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513717099669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactored">
+      <created>1515367976699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1515367976699</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13039000" />
+    <option name="totallyTimeSpent" value="13134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1148,7 +1039,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.39072847" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4807947" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1211,7 +1102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1220,7 +1112,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/jpa/CityRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/persistence/jpa/CityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
@@ -1241,19 +1133,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/web/CityController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/web/CityController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/restjpa/service/CityServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
@@ -1291,7 +1183,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/restjpa/service/CityServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -1318,15 +1210,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/service/CityRepositoryIntegrationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/learnrestjpa/LearnRestJPAApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/restjpa/LearnRestJPAApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
@@ -1352,7 +1236,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/LearnRestJPAApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/LearnRestJPAApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
@@ -1360,7 +1244,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/jpa/CityRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/persistence/jpa/CityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
@@ -1370,7 +1254,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/service/CityService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
@@ -1380,36 +1264,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/service/CityServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/service/CityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/web/CityController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/web/CityController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/learnrestjpa/persistence/model/City.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/tekpartner/learn/restjpa/persistence/model/City.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1442,6 +1326,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tekpartner/learn/restjpa/service/CityRepositoryIntegrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>

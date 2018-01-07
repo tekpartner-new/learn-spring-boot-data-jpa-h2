@@ -1,7 +1,7 @@
-package net.tekpartner.learn.learnrestjpa.service;
+package net.tekpartner.learn.restjpa.service;
 
-import net.tekpartner.learn.learnrestjpa.persistence.jpa.CityRepository;
-import net.tekpartner.learn.learnrestjpa.persistence.model.City;
+import net.tekpartner.learn.restjpa.persistence.jpa.CityRepository;
+import net.tekpartner.learn.restjpa.persistence.model.City;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
