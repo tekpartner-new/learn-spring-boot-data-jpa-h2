@@ -15,7 +15,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * Integration tests to run the application {@link LearnRestJPAApplication}.
- *
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
