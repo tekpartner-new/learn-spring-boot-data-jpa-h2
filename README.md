@@ -22,10 +22,10 @@
     
 ##### DB Connection parameters
 
-    | Property      | Value            |
-    |---------------|------------------|
-    | Driver Class: | org.h2.Driver    |
-    | JDBC URL:     | jdbc:h2:mem:city |
-    | User Name:    | sa               |
-    | Password:     |                  |
+    | Property     | Value            |
+    |--------------|------------------|
+    | Driver Class | org.h2.Driver    |
+    | JDBC URL     | jdbc:h2:mem:city |
+    | User Name    | sa               |
+    | Password     |                  |
     
