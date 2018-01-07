@@ -1,4 +1,4 @@
-package net.tekpartner.learn.springbootsampledatajpa;
+package net.tekpartner.learn.learnrestjpa;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -22,7 +22,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SampleDataJpaApplicationTests {
+public class LearnRestJPAApplicationTests {
 
     @Autowired
     private WebApplicationContext context;

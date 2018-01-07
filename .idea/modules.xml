@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-data-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-sample-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-boot-data-jpa-h2.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-boot-data-jpa-h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-data-jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-data-jpa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-data-jpa_main.iml" group="spring-boot-sample-data-jpa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-data-jpa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-data-jpa_test.iml" group="spring-boot-sample-data-jpa" />
     </modules>
