@@ -1,6 +1,5 @@
-package net.tekpartner.learn.restjpa.service;
+package net.tekpartner.learn.restjpa.persistence.jpa;
 
-import net.tekpartner.learn.restjpa.persistence.jpa.CityRepository;
 import net.tekpartner.learn.restjpa.persistence.model.City;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Integration tests for {@link CityRepository}.
  *
- * @author Oliver Gierke
+ * @author Chandrashekar R. Gaajula
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -28,7 +27,6 @@ public class CityRepositoryIntegrationTests {
 
     @Test
     public void findsFirstPageOfCities() {
-
         Page<City> cities = this.repository.findAll(PageRequest.of(0, 10));
         assertThat(cities.getTotalElements()).isGreaterThan(2L);
     }

@@ -11,36 +11,33 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * Integration test to run the application.
+ * Integration tests to run the application {@link LearnRestJPAApplication}.
  *
- * @author Oliver Gierke
- * @author Dave Syer
+ * @author Chandrashekar R. Gaajula
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class LearnRestJPAApplicationTests {
 
-    @Autowired
-    private WebApplicationContext context;
+  @Autowired
+  private WebApplicationContext context;
 
-    private MockMvc mvc;
+  private MockMvc mvc;
 
-    @Test
-    public void contextLoads() {
-    }
+  @Test
+  public void contextLoads() {
+  }
 
-    @Before
-    public void setUp() {
-        this.mvc = MockMvcBuilders.webAppContextSetup(this.context).build();
-    }
+  @Before
+  public void setUp() {
+    this.mvc = MockMvcBuilders.webAppContextSetup(this.context).build();
+  }
 
-    @Test
-    public void testHome() throws Exception {
-        this.mvc.perform(get("/")).andExpect(status().isOk())
-                .andExpect(content().string("Tokyo"));
-    }
+  @Test
+  public void testHome() throws Exception {
+    this.mvc.perform(get("/cities")).andExpect(status().isOk());
+  }
 }
