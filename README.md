@@ -6,7 +6,7 @@
     
 ### Testing the Endpoint
 
-    curl -X GET localhost:8080
+    curl -X GET localhost:8080/cities
 
 ### Running the tests
 
