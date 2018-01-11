@@ -20,22 +20,22 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 public class LearnRestJPAApplicationTests {
 
-  @Autowired
-  private WebApplicationContext context;
+    @Autowired
+    private WebApplicationContext context;
 
-  private MockMvc mvc;
+    private MockMvc mvc;
 
-  @Test
-  public void contextLoads() {
-  }
+    @Test
+    public void contextLoads() {
+    }
 
-  @Before
-  public void setUp() {
-    this.mvc = MockMvcBuilders.webAppContextSetup(this.context).build();
-  }
+    @Before
+    public void setUp() {
+        this.mvc = MockMvcBuilders.webAppContextSetup(this.context).build();
+    }
 
-  @Test
-  public void testHome() throws Exception {
-    this.mvc.perform(get("/cities")).andExpect(status().isOk());
-  }
+    @Test
+    public void testHome() throws Exception {
+        this.mvc.perform(get("/cities")).andExpect(status().isOk());
+    }
 }
