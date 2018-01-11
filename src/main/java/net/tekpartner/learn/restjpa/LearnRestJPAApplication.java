@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("net.tekpartner.learn.restjpa.persistence.model")
 public class LearnRestJPAApplication {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         SpringApplication.run(LearnRestJPAApplication.class, args);
     }
 

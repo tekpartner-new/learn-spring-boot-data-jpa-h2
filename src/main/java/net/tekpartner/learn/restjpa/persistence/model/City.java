@@ -18,7 +18,7 @@ public class City {
     private Long id;
 
     @Column(nullable = false)
-    private String name;
+    private String city;
 
     @Column(nullable = false)
     private String state;
@@ -29,8 +29,8 @@ public class City {
     @Column(nullable = false)
     private String map;
 
-    public City(String name, String country) {
-        this.name = name;
+    public City(String city, String country) {
+        this.city = city;
         this.country = country;
     }
 }

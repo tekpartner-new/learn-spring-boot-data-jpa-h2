@@ -7,9 +7,9 @@ CREATE SEQUENCE city_sequence
 CREATE TABLE city
 (
   id      BIGINT NOT NULL,
+  city    VARCHAR(255) NOT NULL,
+  state   VARCHAR(2555) NOT NULL,
   country VARCHAR(255) NOT NULL,
   map     VARCHAR(255) NOT NULL,
-  name    VARCHAR(255) NOT NULL,
-  state   VARCHAR(2555) NOT NULL,
   PRIMARY KEY (id)
 );
